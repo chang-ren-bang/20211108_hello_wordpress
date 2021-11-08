@@ -16,11 +16,8 @@ services:
     depends_on:
       - db
     image: wordpress:latest
-<<<<<<< HEAD
     deploy:
-      replicas: 2
-=======
->>>>>>> parent of e433c12 (Update docker-compose.yml)
+      replicas: 3
     volumes:
       - wordpress_data:/var/www/html
     ports:
