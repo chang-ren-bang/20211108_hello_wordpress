@@ -17,7 +17,7 @@ services:
       - db
     image: wordpress:latest
     deploy:
-      replicas: 2
+      replicas: 3
     volumes:
       - wordpress_data:/var/www/html
     ports:
